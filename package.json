@@ -5,7 +5,12 @@
 	"type": "module",
 	"cloudflare": {
 		"label": "Agentic Inbox",
-		"products": ["Workers", "Durable Objects", "R2", "Workers AI"],
+		"products": [
+			"Workers",
+			"Durable Objects",
+			"R2",
+			"Workers AI"
+		],
 		"bindings": {
 			"DOMAINS": {
 				"description": "Your domain with [Email Routing](https://developers.cloudflare.com/email-routing/) enabled (e.g. `example.com`). After deploying, create a catch-all Email Routing rule pointing to this Worker."
@@ -37,9 +42,9 @@
 		"@tiptap/starter-kit": "3.30.5",
 		"agents": "^0.7.6",
 		"ai": "^6.0.116",
-		"dompurify": "^3.4.9",
+		"dompurify": "^3.4.17",
 		"drizzle-orm": "^0.45.2",
-		"hono": "^4.12.12",
+		"hono": "^4.13.16",
 		"isbot": "^5.1.27",
 		"jose": "^6.2.1",
 		"postal-mime": "^2.6.1",
@@ -49,7 +54,7 @@
 		"react-router": "^7.18.2",
 		"remark-gfm": "^4.0.1",
 		"workers-ai-provider": "^3.1.2",
-		"zod": "^3.25.76",
+		"zod": "^4.6.6",
 		"zustand": "^5.0.12"
 	},
 	"overrides": {
@@ -80,29 +85,40 @@
 		"@tiptap/extension-paragraph": "3.30.5",
 		"@tiptap/extension-strike": "3.30.5",
 		"@tiptap/extension-text": "3.30.5",
-		"fast-uri": "^3.1.8",
-		"ip-address": "^10.7.1",
+		"fast-uri": "^3.1.9",
+		"ip-address": "^10.7.4",
 		"js-yaml": "^4.3.2",
 		"linkify-it": "^5.0.2",
 		"lodash": "^4.18.0",
 		"picomatch": "^4.0.4",
 		"qs": "^6.16.0",
 		"markdown-it": "^14.3.1",
-		"@hono/node-server": "^1.19.15",
+		"@hono/node-server": "^1.19.18",
 		"echarts": "^6.1.0",
-		"body-parser": "^2.3.0",
+		"body-parser": "^2.4.0",
 		"@ai-sdk/provider-utils": "4.0.33",
-		"undici": "^7.29.1",
+		"undici": "^7.30.1",
 		"postcss": "^8.5.23",
 		"browserslist": "^4.28.7",
 		"ws": "^8.21.0",
 		"baseline-browser-mapping": "^2.11.0",
 		"@babel/core": "^7.29.6",
 		"sharp": "^0.35.4",
-		"router": { "path-to-regexp": "^8.4.0" },
-		"agents": { "nanoid": "^5.1.16" },
-		"partyserver": { "nanoid": "^5.1.16" },
-		"valibot": "^1.5.0"
+		"router": {
+			"path-to-regexp": "^8.4.0"
+		},
+		"agents": {
+			"nanoid": "^5.1.16"
+		},
+		"partyserver": {
+			"nanoid": "^5.1.16"
+		},
+		"valibot": "^1.5.0",
+		"proxy-addr": "^2.0.8",
+		"@modelcontextprotocol/sdk": "^1.32.0",
+		"wrangler": {
+			"esbuild": "^0.28.1"
+		}
 	},
 	"devDependencies": {
 		"@cloudflare/vite-plugin": "^1.0.12",
@@ -115,7 +131,7 @@
 		"@types/react-dom": "^19.1.2",
 		"tailwindcss": "^4.1.4",
 		"typescript": "^5.8.3",
-		"vite": "^6.4.3",
+		"vite": "^6.4.4",
 		"vite-tsconfig-paths": "^5.1.4",
 		"wrangler": "^4.74.0"
 	}
